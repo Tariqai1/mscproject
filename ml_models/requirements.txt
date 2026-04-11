@@ -1,0 +1,42 @@
+# ML/DL Requirements - Model Training & Inference
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ML Models
+scikit-learn>=1.3.0
+
+# Deep Learning
+tensorflow>=2.13.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# NLP & Transformers
+transformers>=4.30.0
+nltk>=3.8.0
+spacy>=3.7.0
+emoji>=2.1.0
+
+# Preprocessing
+beautifulsoup4>=4.12.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+joblib>=1.3.0
+
+# Jupyter
+jupyter>=1.0.0
+ipython>=8.18.0
+notebook>=7.0.0
+
+# Testing
+pytest>=7.4.0
+
+# Environment
+python-dotenv>=1.0.0
