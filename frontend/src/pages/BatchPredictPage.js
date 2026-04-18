@@ -228,16 +228,16 @@ const BatchPredictPage = () => {
 
             <div className="statistics">
               <div className="stat">
-                <strong>Positive:</strong> {predictions.filter(p => p.sentiment === 2).length}
+                <strong>Positive:</strong> {predictions.filter(p => p.sentiment_label === 'Positive').length}
               </div>
               <div className="stat">
-                <strong>Neutral:</strong> {predictions.filter(p => p.sentiment === 1).length}
+                <strong>Neutral:</strong> {predictions.filter(p => p.sentiment_label === 'Neutral').length}
               </div>
               <div className="stat">
-                <strong>Negative:</strong> {predictions.filter(p => p.sentiment === 0).length}
+                <strong>Negative:</strong> {predictions.filter(p => p.sentiment_label === 'Negative').length}
               </div>
               <div className="stat">
-                <strong>Sarcastic:</strong> {predictions.filter(p => p.sarcasm === 1).length}
+                <strong>Sarcastic:</strong> {predictions.filter(p => p.sarcasm_label === 'Sarcastic').length}
               </div>
             </div>
           </div>

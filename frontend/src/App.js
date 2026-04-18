@@ -7,6 +7,11 @@ import AnalyticsPage from './pages/AnalyticsPage';
 import BatchPredictPage from './pages/BatchPredictPage';
 import ModelComparisonPage from './pages/ModelComparisonPage';
 import TimeSeriesAnalyticsPage from './pages/TimeSeriesAnalyticsPage';
+import EmotionBreakdownPage from './pages/EmotionBreakdownPage';
+import BusinessDashboardPage from './pages/BusinessDashboardPage';
+import AutoMLPage from './pages/AutoMLPage';
+import SocialMediaPage from './pages/SocialMediaPage';
+import ExplainableAIPage from './pages/ExplainableAIPage';
 import './App.css';
 
 function App() {
@@ -48,10 +53,15 @@ function App() {
             <Route path="/timeline" element={<TimeSeriesAnalyticsPage />} />
             <Route path="/batch" element={<BatchPredictPage />} />
             <Route path="/compare" element={<ModelComparisonPage />} />
+            <Route path="/emotions" element={<EmotionBreakdownPage />} />
+            <Route path="/business" element={<BusinessDashboardPage />} />
+            <Route path="/automl" element={<AutoMLPage />} />
+            <Route path="/social" element={<SocialMediaPage />} />
+            <Route path="/explain" element={<ExplainableAIPage />} />
           </Routes>
         </main>
         <footer className="app-footer">
-          <p>© 2024 Sarcasm-Aware Sentiment Analysis System | MSc IT Project</p>
+          <p>© 2026 Sarcasm-Aware Sentiment Analysis System | MSc IT Project</p>
         </footer>
       </div>
     </Router>
